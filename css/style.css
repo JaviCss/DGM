@@ -22,7 +22,7 @@ body {
   width: 5px;
 }
 .body::-webkit-scrollbar-thumb {
-  background-color: #f6e210;
+  background-color: #DC8E2F;
 }
 .body::-webkit-scrollbar-track {
   background: transparent;
@@ -193,7 +193,8 @@ background-color: #D6D6D6 !important;
 /*SECCION 1*/
 .cat1-img {
   margin-top: -2px;
-  width: 100%;
+  margin-left: -1%;
+  width: 99%;
 }
 .cat1-icon {
   margin-bottom: 41px;
