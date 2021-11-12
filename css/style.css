@@ -1,0 +1,510 @@
+/*HERRAMIENTAS*/
+iframe {
+  margin-top: auto;
+  text-align: center;
+}
+html,
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: #fff !important;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.body {
+  overflow-x: hidden;
+}
+.body::-webkit-scrollbar {
+  width: 5px;
+}
+.body::-webkit-scrollbar-thumb {
+  background-color: #f6e210;
+}
+.body::-webkit-scrollbar-track {
+  background: transparent;
+}
+.v-align {
+  display: flex;
+  align-items: center;
+}
+.v-align-col {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.max-w {
+  max-width: 1240px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.space {
+  margin-top: 120px;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
+.grecaptcha-badge {
+  visibility: hidden;
+}
+/*FUENTES*/
+/*KANIT*/
+.ka-54 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: min(9vw, 50px);
+  color: #4C4C4C;
+}
+.ka-42 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: min(9vw, 42px);
+  color: #4C4C4C;
+}
+.ka-32 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: min(9vw, 28px);
+  color: #4C4C4C;
+}
+.ka-20 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: min(9vw, 20px);
+  color: #4C4C4C;
+}
+.ka-16 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: min(9vw, 14px);
+  color: #4C4C4C;
+}
+.p-50{
+  padding: 0 200px 0 200px !important;
+}
+.color {
+  color: #DC8E2F;
+}
+.c {
+  color: #ffd111;
+}
+.icon-wp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+.m-50 {
+  width: 50%;
+}
+@media (max-width: 426px) {
+  .m-50 {
+    width: 100%;
+  }
+}
+#error {
+  color: #e10717;
+}
+@media (min-width: 769px) {
+  .space2 {
+    margin-top: 70px !important;
+  }
+
+}
+@media (max-width: 426px) {
+  .space2 {
+    margin-top: 30px !important;
+  }
+  .icon-wp {
+    width: 40px;
+    height: 40px;
+  }
+}
+/*MENU*/
+.navbar {
+  width: 75% ;
+  background: transparent;
+  z-index: 1000;
+  position: absolute !important;
+  min-height: 75px;
+}
+.img-nav {
+  width: 70%;
+  margin: auto;
+}
+.fondo {
+  background: #fff;
+}
+.navbar-white .navbar-nav .nav-link {
+  color: #4c4c4c;
+  font-weight: 600;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show > .nav-link {
+  font-weight: 600;
+}
+.nav-form{
+  height: 75px !important;  
+  border-radius: 0 10px 10px 0;
+  width: auto;
+}
+.nav-link:hover {
+  color: #dc8e2f !important;
+  font-weight: 700;
+}
+.navbar-brand {
+  margin: auto;
+  width: 20%;
+  height: 75px;
+}
+@media (min-width: 769px) {
+  .nav-link {
+    padding-right: 2vw!important;
+    padding-left: 0px !important;
+  }
+  .ka-42 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: min(9vw, 42px);
+  }
+}
+/*BANNER*/
+
+.owl-dots {
+  
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+
+}
+
+.owl-dot.active span {
+background-color: #DC8E2F !important;
+}
+.owl-dot span {
+background-color: #D6D6D6 !important;
+}
+
+
+
+
+
+/*SECCION 1*/
+.cat1-img {
+  margin-top: -2px;
+  width: 100%;
+}
+.cat1-icon {
+  margin-bottom: 41px;
+  height: 100px;
+}
+/*SECCION 2*/
+.sec2-tarjeta {
+  position: absolute;
+  bottom: -80px;
+  left: 45%;
+}
+.sec2-inner {
+  text-align: start;
+  background-color: #ffd110;
+  padding: 40px;
+}
+.sec2-btn {
+  font-weight: 500;
+  background: transparent;
+  box-shadow: 0px 20px 45px #0000001a;
+  border: 2px solid #ffffff;
+  opacity: 1;
+  padding: 5px 31px 5px 31px;
+  color: #fff;
+}
+.sec2-btn:hover {
+  background: #fff;
+  color: #312783;
+}
+.img-sec2 {
+  width: 15%;
+}
+.t {
+  width: 90%;
+}
+/*SECCION 3*/
+.sec3-img {
+ width: 90%;
+ border-radius: 15px;
+}
+/*SECCION 4*/
+.sec4-img{
+  width: 70%;
+  margin: auto;
+}
+
+ul { list-style-type: disc; } 
+
+
+ li::marker { color: #DD8F2F; } 
+/*SECCION 5 */
+.sec5 {
+  min-height: 600px;
+  background-image: url('../img/sec5.png');
+}
+
+/*seccion 6*/
+.marcas {
+  
+  margin: auto auto 0 auto;
+  width: 80%;
+  padding:30px;
+  background-color: #fff;
+  border-radius: 30px 30px 0 0 ;
+}
+.item-marca{
+  margin: 10px;
+  width: 50%;
+}
+
+/*seccion8*/
+
+.btn-form {
+  background: #EA9120;
+  box-shadow: 0px 20px 45px #0000001a;
+  border: none;
+  color: #fff;
+  padding: 5px 50px 5px 50px;
+  width: 100%;
+}
+form {
+  margin: 0 auto;
+  width: 100%;
+}
+label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+input,
+textarea,
+select {
+  color: #000000;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #D6D6D6;
+  border: none;
+  border-bottom: 2px solid#B1B1B1;
+  height: 50px;
+  margin-bottom: 20px !important;
+  padding: 10px;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border-bottom: 2px solid#EA9120;
+}
+textarea {
+  vertical-align: top;
+  resize: none !important;
+  height: 5em;
+}
+/*FOOTER*/
+
+.wp {
+  position: fixed;
+  right: 40px;
+  bottom: 30px;
+}
+.footer {
+  background: #2D2D2D;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.footer-img {
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1024px) {
+  .ka-32 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: min(9vw, 18px);
+  }
+  .ka-20 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: min(9vw, 14px);
+  }
+  .ka-16 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: min(9vw, 12px);
+  }
+  .sec2-inner {
+    padding: 20px;
+  }
+  .t {
+    width: 100%;
+  }
+  .footer-img {
+    width: 20%;
+  }
+  .sec4-titulo {
+    margin-top: 8%;
+  }
+}
+@media (max-width: 769px) {
+ 
+  .navbar {
+    width: 100% !important;
+    position: absolute !important;
+    background: rgba(0, 0, 0, 0.336);
+    z-index: 1000;
+  }
+  .ka-42 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: min(4vw, 42px);
+  }
+  .banner-btn {
+    padding: 10px 28px 10px 28px;
+  }
+  .sec2-btn {
+    padding: 5px 10px 5px 10px;
+  }
+  .sec2-inner {
+    width: 100% !important;
+  }
+  .sec2-tarjeta {
+    position: relative;
+
+    bottom: auto;
+    left: auto;
+  }
+  .img-sec2 {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 575px){
+  .nav-form{
+    display: none;
+    }
+}
+@media (max-width: 425px) {
+  .item-marca{
+    margin: auto auto 20px auto;
+    width: 50%;
+  }
+  .p-50{
+    padding: 0 50px 0 50px !important;
+  }
+  
+  .cat1-img {
+    display: none;
+  }
+  .ka-42 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: min(9vw, 42px);
+  }
+  .navbar-brand {
+    margin: 0;
+    width: 40%;
+  }
+  .img-nav {
+    width: 100%;
+  }
+  
+  /*SECCION 1*/
+
+  
+  /*SECCION 2*/
+  .img-sec2 {
+    margin-top: 10px;
+    width: 25%;
+  }
+  .t {
+    width: 90%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .sec2-tarjeta {
+    bottom: 15%;
+  }
+  .sec2-btn {
+    width: 80%;
+  }
+  .space {
+    margin-top: 80px;
+  }
+  .owl-carousel .owl-item img {
+   
+    width: inherit !important; 
+  }
+  .owl-stage-outer {
+    height: 650px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*SECCION 4*/
+  .nav-item-cat4 {
+    width: 100% !important;
+  }
+  .sec4 {
+    width: 90% !important;
+    padding: 0px !important;
+    box-shadow: 0px 10px 45px #0000001a;
+    border-radius: 8px;
+  }
+  .sec4-titulo {
+    text-align: center;
+  }
+  .sec4-img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sec4 div div button {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+  }
+  /*SECCION 6*/
+  .sec6 {
+    width: 88% !important;
+    margin-left: 6% !important;
+    margin-right: 6% !important;
+  }
+
+  /*SECCION 8*/
+  .sec8 {
+    width: 88% !important;
+    margin-left: 6% !important;
+    margin-right: 6% !important;
+    padding: 0 !important;
+    border-radius: 8px;
+  }
+  .sec8 .row {
+    flex-direction: column-reverse;
+  }
+  .form-logo {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+  .btn-form {
+    height: 40px;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+    font-size: min(9vw, 15px);
+  }
+  input,
+  textarea {
+    margin-bottom: 10px !important;
+  }
+  /*FOOTER*/
+  .footer-img {
+    width: 40%;
+  }
+}
