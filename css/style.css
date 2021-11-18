@@ -5,8 +5,7 @@ iframe {
 }
 html,
 body {
-  font-family: 'Montserrat', sans-serif !important;
-  background-color: #fff !important;
+    background-color: #fff !important;
   box-sizing: border-box;
   scroll-behavior: smooth !important;
 }
@@ -54,27 +53,27 @@ body {
 /*FUENTES*/
 /*KANIT*/
 .ka-54 {
- font-family: 'Gotham', sans-serif;
+ font-family: 'Gotham Book', sans-serif;
   font-size: min(9vw, 50px);
   color: #4C4C4C;
 }
 .ka-42 {
- font-family: 'Gotham', sans-serif;
+ font-family: 'Gotham Book', sans-serif;
   font-size: min(9vw, 42px);
   color: #4C4C4C;
 }
 .ka-32 {
- font-family: 'Gotham', sans-serif;
+ font-family: 'Gotham Book', sans-serif;
   font-size: min(9vw, 28px);
   color: #4C4C4C;
 }
 .ka-20 {
- font-family: 'Gotham', sans-serif;
+ font-family: 'Gotham Book', sans-serif;
   font-size: min(9vw, 20px);
   color: #4C4C4C;
 }
 .ka-16 {
- font-family: 'Gotham', sans-serif;
+ font-family: 'Gotham Book', sans-serif;
   font-size: min(9vw, 14px);
   color: #4C4C4C;
 }
@@ -165,7 +164,7 @@ body {
     padding-left: 0px !important;
   }
   .ka-42 {
-   font-family: 'Gotham', sans-serif;
+   font-family: 'Gotham Book', sans-serif;
     font-size: min(9vw, 42px);
   }
 }
@@ -332,15 +331,15 @@ textarea {
 }
 @media (max-width: 1024px) {
   .ka-32 {
-   font-family: 'Gotham', sans-serif;
+   font-family: 'Gotham Book', sans-serif;
     font-size: min(9vw, 18px);
   }
   .ka-20 {
-   font-family: 'Gotham', sans-serif;
+   font-family: 'Gotham Book', sans-serif;
     font-size: min(9vw, 14px);
   }
   .ka-16 {
-   font-family: 'Gotham', sans-serif;
+   font-family: 'Gotham Book', sans-serif;
     font-size: min(9vw, 12px);
   }
   .sec2-inner {
@@ -365,7 +364,7 @@ textarea {
     z-index: 1000;
   }
   .ka-42 {
-   font-family: 'Gotham', sans-serif;
+   font-family: 'Gotham Book', sans-serif;
     font-size: min(4vw, 42px);
   }
   .banner-btn {
@@ -405,7 +404,7 @@ textarea {
     display: none;
   }
   .ka-42 {
-   font-family: 'Gotham', sans-serif;
+   font-family: 'Gotham Book', sans-serif;
     font-size: min(9vw, 42px);
   }
   .navbar-brand {
