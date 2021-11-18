@@ -58,7 +58,7 @@ body {
   color: #4C4C4C;
 }
 .ka-42 {
- font-family: 'Gotham Book', sans-serif;
+  font-family: 'Eurostile Extended', sans-serif;
   font-size: min(9vw, 42px);
   color: #4C4C4C;
 }
@@ -164,7 +164,7 @@ body {
     padding-left: 0px !important;
   }
   .ka-42 {
-   font-family: 'Gotham Book', sans-serif;
+    font-family: 'Eurostile Extended', sans-serif;
     font-size: min(9vw, 42px);
   }
 }
@@ -364,7 +364,7 @@ textarea {
     z-index: 1000;
   }
   .ka-42 {
-   font-family: 'Gotham Book', sans-serif;
+    font-family: 'Eurostile Extended', sans-serif;
     font-size: min(4vw, 42px);
   }
   .banner-btn {
@@ -404,7 +404,7 @@ textarea {
     display: none;
   }
   .ka-42 {
-   font-family: 'Gotham Book', sans-serif;
+    font-family: 'Eurostile Extended', sans-serif;
     font-size: min(9vw, 42px);
   }
   .navbar-brand {
